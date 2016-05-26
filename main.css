@@ -1,0 +1,7 @@
+html {
+	background-color:Grey;color:White;
+	font-family:Tahoma;
+}
+table > th{
+	width: 20%;
+}
