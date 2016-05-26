@@ -1,43 +1,73 @@
 html {
-	background-color:Grey;color:White;
-	font-family:Tahoma;
+    background-color: Grey;
+    color: White;
+    font-family: Tahoma;
 }
 
-.Tables{
-	border:0;border-collapse:collapse;
+.Tables {
+    border: 0;
+    border-collapse: collapse;
+
 }
-#Table1{
-	background-color:#A9A9A9;width:100%;
-}
-#Table2{
-	width:100%;padding:20px;
-}
-#Table3{
-	background-color:#808080;width:100%;
-}
-.TableHead{
-	font-size:200%;
-}
-#th1{
-	text-align:left;padding:20px;
-}
-#th2{
-	text-align:right;padding:20px;
-}
-#th3{
-	font-size:150%;text-align:left;align:center;padding:20px;
-}
-#th4{
-	font-size:150%;text-align:right;align:center;padding:20px;
-}
-.TableCol{
-	text-align:center;padding:20px;
+.Tables td {
+    padding: 10px;
+    border: 1px solid #000;
 }
 
-.Paragraph{
-	font-size:110%;text-align:left;
-}
-.Links{
-	text-decoration:none;
+#Table1 {
+    background-color: #A9A9A9;
+    width: 100%;
 }
 
+#Table2 {
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#Table3 {
+    background-color: #808080;
+    width: 100%;
+}
+
+.TableHead {
+    font-size: 200%;
+}
+
+#th1 {
+    text-align: left;
+    padding: 20px;
+}
+
+#th2 {
+    text-align: right;
+    padding: 20px;
+}
+
+#th3 {
+    font-size: 150%;
+    text-align: left;
+    align: center;
+    padding: 20px;
+}
+
+#th4 {
+    font-size: 150%;
+    text-align: right;
+    align: center;
+    padding: 20px;
+}
+
+.TableCol {
+    text-align: center;
+    padding: 20px;
+}
+
+.Paragraph {
+    font-size: 110%;
+    text-align: left;
+}
+
+.Links {
+    text-decoration: none;
+}
