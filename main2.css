@@ -9,9 +9,14 @@ html{
 }
 
 .Page_Title{
-	display: left;
+	float: left;
 }
-.Links a{
+.Links a {
 	float: right;
 	text-decoration: none;
+	margin-right: 30px;
+}
+
+.clearfix {
+	clear: both;
 }
