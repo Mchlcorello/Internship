@@ -1,0 +1,17 @@
+html{
+	background-color: grey;
+	color: white;
+	font-family: tahoma;
+}
+
+.Header{
+	border: 1px solid blue;
+}
+
+.Page_Title{
+	display: left;
+}
+.Links a{
+	float: right;
+	text-decoration: none;
+}
