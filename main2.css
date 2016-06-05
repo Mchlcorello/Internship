@@ -4,28 +4,28 @@ html{
 	font-family: tahoma;
 }
 
-.Header{
+.header {
 }
 
-<<<<<<< HEAD
-.Header_Title{
+.header-title {
 	float: left;
-	margin-left: 20px;
-	margin-top: 10px;
+	width: 50%;
+	background:pink;
 }
-.Header_Links a, h2{
-=======
-.Page_Title{
+.header-title {
 	float: left;
 }
-.Links a {
->>>>>>> origin/master
+.header-links {
+	float: right;
+	width: 50%;
+	background: yellow;
+}
+.header-links a {
 	float: right;
 	font-size: 120%;
 	text-decoration: none;
 	margin-right: 30px;
-<<<<<<< HEAD
-	margin-top: 18px;
+	
 }
 .clear{
 	clear:both;
@@ -35,10 +35,8 @@ html{
 }	
 .Content_Titles h2{
 	text-align: center;
-=======
 }
 
 .clearfix {
 	clear: both;
->>>>>>> origin/master
 }
