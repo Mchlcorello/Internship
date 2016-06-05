@@ -7,16 +7,24 @@ html{
 .Header{
 }
 
+<<<<<<< HEAD
 .Header_Title{
 	float: left;
 	margin-left: 20px;
 	margin-top: 10px;
 }
 .Header_Links a, h2{
+=======
+.Page_Title{
+	float: left;
+}
+.Links a {
+>>>>>>> origin/master
 	float: right;
 	font-size: 120%;
 	text-decoration: none;
 	margin-right: 30px;
+<<<<<<< HEAD
 	margin-top: 18px;
 }
 .clear{
@@ -27,4 +35,10 @@ html{
 }	
 .Content_Titles h2{
 	text-align: center;
+=======
+}
+
+.clearfix {
+	clear: both;
+>>>>>>> origin/master
 }
