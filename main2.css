@@ -5,13 +5,27 @@ html{
 }
 
 .Header{
-	border: 1px solid blue;
+
 }
 
-.Page_Title{
-	display: left;
+.Header_Title{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
 }
-.Links a{
+.Header_Links a, h2{
 	float: right;
+	font-size: 120%;
 	text-decoration: none;
+	margin-right: 30px;
+	margin-top: 18px;
+}
+.clear{
+	clear:both;
+}
+.Content_Heading{
+	border: 1px solid yellow;
+}	
+.Content_Titles h2{
+	text-align: center;
 }
