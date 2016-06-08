@@ -1,69 +1,37 @@
 html{
-	background-color: grey;
+	background-color: #A9A9A9;
 	color: white;
 	font-family: tahoma;
 }
-
-.header {
+.header{
 	background-color: #A9A9A9;
 }
 
-.header-title {
-	float: left;
-	width: 50%;
-}
 .header-title h1{
 	float: left;
 	padding: 5px;
 	margin-left: 10px;
 }
-.header-links {
+.header-links{
 	float: right;
-	width: 50%;
 }
 .header-links a{
 	float: right;
-	font-size: 120%;
+	font-size: 130%;
 	padding: 5px;
 	margin-right: 10px;
 	text-decoration: none;
 }
 .content{
-
-}
-.content h2{
-	float: left;
-	text-align: center;
-	width: 33%;
+	background-color: grey;
 }
 .content p{
 	float: left;
 	text-align: left;
 	font-size: 110%;
 	padding: 2px;
-	width: 33%;
 }
-.footer{
 
-}
-.footer-address{
-	float: left;
-	width: 50%;
-}
-.footer-address h1{
-	float: left;
-	padding: 5px;
-	margin-left: 10px;
-}
-.footer-author{
-	float: right;
-	width: 50%;
-}
-.footer-author h1{
-	float: right;
-	padding: 5px;
-	margin-right: 10px;
-}
-.clear{
-	clear:both;
+.footer{
+	background-color: grey;
 }

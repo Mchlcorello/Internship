@@ -4,6 +4,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Main Bootstrap.css">
 		<meta charset="utf-8">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -15,18 +16,22 @@
 
 	<body>
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6"><h1> Research Department </h1></div>
-				<div class="col-md-2"><a href=""><h2> Services </h2></a></div>
-				<div class="col-md-2"><a href=""><h2> Media </h2></a></div>
-				<div class="col-md-2"><a href=""><h2> Contacts </h2></a></div>
+			<div class="row header">
+				<div class="col-md-9 header-title"><h1> Research Department </h1>
+				</div>
+				<div class="col-md-1 header-links"><a href=""><h2> Contacts </h2></a>
+				</div>
+				<div class="col-md-1 header-links"><a href=""><h2> Services </h2></a>
+				</div>
+				<div class="col-md-1 header-links"><a href=""><h2> Media </h2></a>
+				</div>
 			</div>
-		</div>
-		
-		<div class="container-fluid">
+		<div class="row content">
 			<div class="col-md-4"><h2>Renaissance History</h2></div>
 			<div class="col-md-4"><h2>Scientific Revolution History</h2></div>
 			<div class="col-md-4"><h2>Punic Wars History</h2></div>
+		</div>
+		<div class="row content">
 			<div class="col-md-4"><p>During the Renaissance, great advances occurred in geography, astronomy, chemistry, physics, mathematics, manufacturing, anatomy and 
 					engineering. The rediscovery of ancient scientific texts was accelerated after the 
 					Fall of Constantinople in 1453, and the invention of printing which would democratize 
@@ -60,15 +65,15 @@
 					soldiers from both sides, Rome had conquered Carthage's empire, completely destroyed the city, 
 					and become the most powerful state of the Western Mediterranean.</p></div>
 		</div>
+
 	</body>
 
 	<footer>
-	<div class="contianer-fluid">
-		<div  class="row">
-			<div class="col-md-8"><h1>4104 Broad Street<br>West Fargo, ND 58102</h1>
-			</div>
-			<div class="col-md-4"><h1>Created by Michael and Albert</h1></div>
+	<div class="row footer">
+		<div class="col-md-8"><h1>4104 Broad Street<br>West Fargo, ND 58102</h1>
 		</div>
+		<div class="col-md-4"><h1>Created by Michael and Albert</h1></div>
 	</div>
 	</footer>
+		</div>
 </html>
