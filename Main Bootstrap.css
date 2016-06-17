@@ -6,6 +6,9 @@ html{
 .header{
 	background-color: #A9A9A9;
 }
+.navbar-brand {
+	font-size: 40px;
+}
 
 .header-title{
 	margin-left: 5px;
